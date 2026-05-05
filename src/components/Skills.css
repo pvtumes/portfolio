@@ -1,0 +1,105 @@
+.skills {
+  position: relative;
+}
+
+.skills__bg-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(37,99,235,0.025) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+[data-theme="dark"] .skills__bg-gradient {
+  background: linear-gradient(180deg, transparent 0%, rgba(59,130,246,0.04) 50%, transparent 100%);
+}
+
+.skills__groups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1060px) {
+  .skills__groups {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Group card */
+.skills__group {
+  padding: 28px;
+}
+
+.skills__group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skills__group-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  background: rgba(37,99,235,0.1);
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+[data-theme="dark"] .skills__group-icon {
+  background: rgba(59,130,246,0.12);
+}
+
+.skills__group-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+/* Chips */
+.skills__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills__chip {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 100px;
+  transition: all var(--transition);
+  cursor: default;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.skills__chip:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+}
+
+[data-theme="dark"] .skills__chip:hover {
+  box-shadow: 0 4px 12px rgba(59,130,246,0.35);
+}
+
+@media (max-width: 860px) {
+  .skills__groups {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .skills__group {
+    padding: 20px;
+  }
+}
