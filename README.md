@@ -1,16 +1,57 @@
-# React + Vite
+# Umesh Kumar Prasad — Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code for my personal developer portfolio! This application is designed to showcase my experience, technical skills, and projects as a Software Engineer specializing in **Backend, Cloud, and DevOps**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+*(Assuming deployed on Netlify soon)*
+**[View Live Portfolio Here](#)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+This project was built from scratch with a modern, performant frontend stack:
+- **Core**: React 19 + Vite
+- **Styling**: Vanilla CSS with modern CSS Variables & Responsive Layouts
+- **Animations**: Framer Motion & Custom Scroll Intersection Hooks
+- **Analytics**: Google Analytics 4 (`react-ga4`)
+- **Contact Form**: Web3Forms (Serverless email delivery)
+- **Notifications**: React Hot Toast
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+- **Modern UI/UX**: Clean, responsive, and accessible design with dynamic gradient aesthetics.
+- **Micro-Animations**: Staggered component reveals and spring animations for a premium feel.
+- **Dynamic Project Gallery**: Auto-scrolling, edge-to-edge image carousels built into the project cards.
+- **Serverless Contact Form**: Direct-to-inbox messaging without the need for a custom backend server.
+- **Event Tracking**: Integrated Google Analytics to monitor engagement and resume downloads.
 
-## Expanding the ESLint configuration
+## 💻 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pvtumes/portfolio.git
+   ```
+
+2. **Navigate to the directory**
+   ```bash
+   cd portfolio
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173`
+
+## 📫 Connect with me
+
+- **Email**: pvtumes@gmail.com
+- **LinkedIn**: [linkedin.com/in/umesh154](https://www.linkedin.com/in/umesh154/)
+- **GitHub**: [github.com/pvtumes](https://github.com/pvtumes)
+- **LeetCode**: [leetcode.com/u/pvtumes](https://leetcode.com/u/pvtumes/)
